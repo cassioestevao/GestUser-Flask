@@ -31,11 +31,11 @@ def inserir_cliente():
     novo_usuario = {
         "id": len(CLIENTES) + 1,
         "nome": data['nome'] ,
-        "email":data['email'] ,
+        "email": data['email'] ,
     }
     CLIENTES.append(novo_usuario)
 
-    return render_template('item_cliente.html',cliente=novo_usuario)
+    return render_template('item_cliente.html',cliente = novo_usuario)
 
 
 

@@ -1,4 +1,8 @@
-<form class="c-form" action="{{ url_for('cliente.inserir_cliente') }}" method="POST">
+<form class="c-form" 
+        action="{{ url_for('cliente.inserir_cliente') }}" 
+        method="POST"
+        c-append = "#lista_clientes"
+        >
 
 
     <div class="mb-3">
